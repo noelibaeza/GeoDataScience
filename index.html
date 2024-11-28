@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noeli Baeza </title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon" />
+    
+</head>
+<body>
+    <div class="topheader">
+        <nav class="topnav">
+            <div class="logo">
+                <a href="#home" class="logo-link">
+                    <img width="50" height="50" src="imagenes/perfil2.png" alt="perfil">
+                    <div>Noeli Baeza</div>
+                </a>
+            </div>
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="imagenes/hamburger-icon.svg" alt="abrir menú">
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <img src="imagenes/close-icon.svg" alt="cerrar menú">
+                </button>
+                <li><a href="#projects">Proyectos destacados</a></li>
+                <li><a href="#skills">Habilidades técnicas</a></li>
+            </ul>
+        </nav>
+    </div>
+    <canvas id="canvas"></canvas>
+      
+
+    <div id="home" class="section">
+        <h1> Noeli Baeza </h1>
+        <h2>Data Scientist Geoespacial - Biologist - AI Enthusiast </h2>
+        <!-- <img src="imagenes/2.png" alt="Foto profesional de Noeli Baeza" style="width:200px;"> -->
+        <div class="mac-tab">
+            
+            <p>Hola, soy <strong>Noeli Baeza </strong> 👋 Licenciada en Biología y Data Scientist Geoespacial. Mi interés me llevó a especializarme en Sistemas de Información Geográfica (SIG) y Teledetección, utilizando herramientas como QGIS y Google Earth Engine para el análisis espacial y la toma de decisiones informadas.
+                
+                También he profundizado en el uso de Python, aplicándolo en proyectos que combinan ciencia de datos y visualización geoespacial.
+                
+                Recientemente, descubrí el mundo de la Inteligencia Artificial Generativa, un área que exploro e integro en mi día a día para potenciar mi trabajo.✨</p>
+        </div>
+    </div>
+
+    <div id="projects" class="section">
+        <h2>Proyectos destacados</h2>
+        <div class="grid-container">
+            <div class="project">
+                <img src="imagenes/diplo_final.png" alt="Trabajo Final Diplomatura en Ciencia de Datos">
+                <div class="project-content">
+                    <h3>Trabajo Final Diplomatura en Ciencia de Datos</h3>
+                    <p>Estimar rendiemiento de lotes de maiz de primer 🌽</p>
+                    <a href="https://github.com/noelibaeza/FINAL_DIPLOMATURA/blob/main/NOTEBOOK_FINAL.ipynb" target="_blank">Ver en GitHub</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="imagenes/infraes.png" alt="Proyecto 2">
+                <div class="project-content">
+                    <h3>Infraestructura de Datos Espaciales</h3>
+                    <p>Creación de una IDE para la FCyT-UADER 👩‍🎓</p>
+                    <a href="https://github.com/IDE-FCyT/IDE-FCyT" target="_blank">Ver en GitHub</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="imagenes/apn.png" alt="Proyecto 3">
+                <div class="project-content">
+                    <h3>Mapa Áreas Naturales Protegidas de Entre Ríos</h3>
+                    <p>Creación de un mapa web de las ANP de Entre Ríos 🌎</p>
+                    <a href="https://github.com/noelibaeza/areasNaturalesER" target="_blank">Ver en GitHub</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="imagenes/pagina_alberdi.png" alt="Proyecto 4">
+                <div class="project-content">
+                    <h3>Pagina web Reserva Natural Alberdi</h3>
+                    <p>Creación de una pagina web para la reserva natrual protegida Alberdi 🌳.</p>
+                    <a href="https://github.com/noelibaeza/reserva_alberdi_er" target="_blank">Ver en GitHub</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="imagenes/diagrama.drawio.png" alt="Proyecto 5">
+                <div class="project-content">
+                    <h3>Base de datos Espacial</h3>
+                    <p>Migración y creacion de una DB espacial para registros de precipitación 💾.</p>
+                    <a href="https://github.com/noelibaeza/db_espacial" target="_blank">Ver en GitHub</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="imagenes/heladas.png" alt="Proyecto 6">
+                <div class="project-content">
+                    <h3>Heladas meteorológica y agronómica</h3>
+                    <p>Análisis de heladas Agronómicas y Meteorológicas (Mayo - Septiembre: 2021-2024)🌀.</p>
+                    <a href="https://github.com/noelibaeza/horas_frio" target="_blank">Ver en GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="section">
+        <div class="skills">
+            <h2 class="skills-title">Habilidades técnicas</h2>
+            <ul class="skills-list">
+                <li class="skill-card">
+                    <img src="imagenes/python.png" alt="Python">
+                    <p>Python</p>
+                </li>
+                <li class="skill-card">
+                    <img src="imagenes/google-earth.png" alt="Google Earth Engine">
+                    <p>Google Earth Engine</p>
+                </li>
+                <li class="skill-card">
+                    <img src="imagenes/gis.png" alt="QGIS">
+                    <p>QGIS</p>
+                </li>
+                <li class="skill-card">
+                    <img src="imagenes/postgre.png" alt="Postgres + PostGIS">
+                    <p>Postgres + PostGIS</p>
+                </li>
+                <li class="skill-card">
+                    <img src="imagenes/git.png" alt="Git">
+                    <p>Git</p>
+                </li>
+                <li class="skill-card">
+                    <img src="imagenes/js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </li>
+                <li class="skill-card">
+                    <img src="imagenes/html-5.png" alt="HTML 5">
+                    <p>HTML 5</p>
+                </li>
+                <li class="skill-card">
+                    <img src="imagenes/css-3.png" alt="CSS">
+                    <p>CSS</p>
+                </li>
+                <li class="skill-card">
+                    <img src="imagenes/visual-basico.png" alt="VSC">
+                    <p>VSC</p>
+                </li>
+                <li class="skill-card">
+                    <img src="imagenes/mkdocs.png" alt="Mkdocs">
+                    <p>Mkdocs</p>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="https://www.linkedin.com/in/noeli-baeza-079132240/" target="_blank" aria-label="Accede a mi perfil de Linkedin">
+                <img src="imagenes/icons8-linkedin-50.png" alt="Linkedin" class="footer-icon">
+            </a>
+            <a href="mailto:noelibaeza@gmail.com" aria-label="Enviame un mensaje desde tu correo">
+                <img src="imagenes/email.png" alt="Email" class="footer-icon">
+            </a>
+            <a href="https://github.com/noelibaeza" target="_blank">
+                <img src="imagenes/github.png" alt="GitHub" class="footer-icon">
+            </a>
+        </div>
+    </footer>
+    <script src="background.js"></script>
+</body>
+</html>
